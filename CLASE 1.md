@@ -43,7 +43,7 @@ Si la función es escalada en el tiempo, es decir, si la función depende de at 
 #### Transformada senosoidal 
 #### Transformada de una funcion 
 #### Transformada de la derivada 
-
+![tomado de platzi.com](images/TRDER.png)
 #### Transformada de la integral
 ## Transformada inversa de Laplace 
 Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir de su representación en el dominio de Laplace. Para obtener la transformada inversa se deben descomponer en fracciones parciales la expresión a calcular.
