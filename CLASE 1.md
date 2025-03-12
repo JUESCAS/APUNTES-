@@ -16,14 +16,18 @@ En un sistema dinámico, los parámetros pueden tener un impacto significativo e
 #### 2.3.1 Comportamiento sinusoidal 
 >🔑El comportamiento sinusoidal es característico de sistemas que oscilan de manera periódica, como un péndulo o un oscilador armónico simple. La oscilación sinusoidal se produce cuando una cantidad varía cíclicamente, siguiendo una función seno o coseno en función del tiempo.
 <img src="images/EXP.jpg"  width="300"/>
+
 #### 2.3.2 Decaimiento exponencial 
 >🔑El decaimiento exponencial es un comportamiento común en sistemas que experimentan fricción, resistencia o amortiguamiento, donde la amplitud de las oscilaciones o la magnitud de la variable disminuye exponencialmente con el tiempo.
+
+<img src="images/EXPP.png" alt="Foto de ejemplo" width="300"/>
+
 ##  3.Ecuaciones diferenciales 
 >🔑Una ecuación diferencial es una ecuación que involucra una o más derivadas de una función desconocida, la solución de una ecuación diferencial es una función o un conjunto de funciones que satisface dicha ecuación. Las ecuaciones diferenciales son esenciales para describir cómo cambian las variables de manera precisa y detallada. Los sistemas que pueden describir una ecuación diferencial son múltiples, por ejemplo, el movimiento de un objeto, la propagación de una enfermedad, el crecimiento de una población o la evolución de un mercado económico.
 ### 3.1 Derivada 
 >🔑La derivada es un concepto fundamental en cálculo que describe el cambio instantáneo de una función con respecto a una de sus variables es decir que es una forma de medir la variación entre dos puntos. la derivada es una herramienta que evaluar el cambio instantáneo de una función con respecto a una de sus variables. A través de la derivada, podemos obtener información crucial sobre el comportamiento de una función, como la pendiente de una curva, la velocidad de un objeto, y la tasa de cambio de cualquier variable.La derivada juega un papel fundamental en las ecuaciones diferenciales, ya que estas ecuaciones describen cómo cambia una variable con respecto al tiempo o a otra variable.
 
-![pam]<img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
+<img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
 
 ### 3.2 Caracteristicas de una ecuacion diferencial 
 Las ecuaciones diferenciales se pueden clasificar según su linealidad y variabilidad en diferentes tipos que afectan la forma en que se resuelven y el comportamiento que tienen las soluciones.
@@ -58,13 +62,12 @@ La transformada de Laplace de esta función rampa se puede calcular utilizando l
 
 <img src="images/TN.png"  width="300"/>
 
-#### 4.1.6 Transformada senosoidal 
-#### 4.1.7 Transformada de la derivada 
+#### 4.1.6 Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
 
 <img src="images/TRDER.png" alt="Foto de ejemplo" width="400"/>
 
-#### 4.1.8 Transformada de la integral
+#### 4.1.7 Transformada de la integral
 La transformada de Laplace de una integral puede calcularse utilizando una propiedad importante de las transformadas de Laplace. Si tenemos una función.
 
 <img src="images/INTR.png" alt="Foto de ejemplo" width="300"/>
@@ -74,6 +77,7 @@ Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir
 ## 5.Descomposición en fracciones parciales
 es un método que se utiliza para simplificar fracciones racionales, es decir, fracciones donde el numerador como el denominador son polinomios.
 #### 5.1 Raices reales y diferentes 
+cuando se factoriza del denominador y su resultado da factores cuyas raices son reales, se lleva a cabo de la siguiente manera.
 
 ##  📚Ejercicios
 ###  📚Ejercicio 1
@@ -117,4 +121,16 @@ $$\ C = -2\$$
 $$\\frac{1}{s} + \frac{1}{s - 2} - \frac{2}{s + 1}\$$
 ## Conclusiones 
 ## Referencias 
+[ChatGPT] (https://openai.com/chatgpt)
 
+[Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_ambientales.html)
+
+[instituto de tecnologia educativas] (https://www.lifeder.com/transformada-de-laplace/)
+
+[paunero] (https://paunero.com/)
+
+[Noemi Lizarraga] (https://www.youtube.com/watch?v=Dk8VOlD4YEE&list=PL4yTVi9hqRwW0mDV8WqOC_B_svD2-OJl9)
+
+[Marco Ayala] (https://www.youtube.com/watch?v=DQo9BZXF3ew)
+
+[platzi] (https://platzi.com/tutoriales/1320-ecuaciones/8937-transformada-de-laplace-de-la-derivada-de-una-funcion-pvi-repaso/)
