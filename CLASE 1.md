@@ -1,76 +1,79 @@
 # Transformada de laplace 
 Cuando se habla de dinámica de sistemas, se hace referencia una serie de conceptos que describen una forma de analizar, modelar y solucionar sistemas cuyas variables cambian continuamente en el tiempo. Al referirse a una variación en el tiempo, matemáticamente es posible relacionarlo con una derivada, por lo que para llevar a cabo la solución de un sistema dinámico es importante identificar y manejar de manera eficiente las ecuaciones diferenciales.
 Cuando se pretende hallar la solución para una ecuación diferencial, la transformada de Laplace es una herramienta que simplifica el proceso ya que, al cambiar el dominio del tiempo al dominio de Laplace, la complejidad de operar derivadas se reducirá a expresiones algebraicas, que gracias a las fracciones parciales no tendrán mayor dificultad para ser operadas, sin embargo  cuando se emplea la transformada de Laplace es importante tener en cuenta que cuando obtenga  el valor deseado es necesario aplicar la transformada inversa, para devolver al dominio del tiempo el valor de la incógnita.
-##  Sistemas
+##  1.Sistemas
 >🔑Un sistema es un conjunto de elementos que se relacionan y actúan de manera organizada y lógica con el fin de llevar a cabo un propósito. Un sistema no es necesariamente una estructura, ya que un sistema tambien se puede concebir de manera intangible, siempre y cuando sea posible distinguir sus componentes interrelacionados mediante reglas o principios.
-###  Sistemas lineales
+###  1.1Sistemas lineales
 Son aquellos en los que las relaciones entre las variables de entrada y salida son lineales. Es decir, siguen principios de aditividad y homogeneidad.
-###  Sistemas no lineales
+###  1.2Sistemas no lineales
 Son aquellos en los que las relaciones entre las variables de entrada y salida no son lineales. Estos sistemas pueden mostrar comportamientos complejos como caos o bifurcaciones.
-##  Sistemas dinamicos 
+##  2.Sistemas dinamicos 
 >🔑Un sistema dinámico es un concepto que describe la evolución de un sistema con respecto al tiempo según una serie de reglas o principios específicos. Un sistema dinámico está determinado por un conjunto de ecuaciones que describen el cambio las variables del sistema a medida que pasa el tiempo. Los sistemas dinámicos pueden mostrar una variedad de comportamientos, desde movimientos predecibles y simples, hasta comportamientos caóticos y complejos. 
-### Modelos dinámicos
+### 2.2.Modelos dinámicos
 >🔑Un modelo dinámico es una representación matemática que describe cómo evoluciona con el tiempo un sistema especifico. La representación matemática que permite modelar y relacionar las variables de un sistema son las ecuaciones diferenciales, sin embargo, es importante tener en cuenta que para constituir un modelo dinámico es un modelo dinámico se deben definir claramente las variables y las condiciones iniciales.
-### influencia de parametros
+### 2.3.influencia de parametros
 En un sistema dinámico, los parámetros pueden tener un impacto significativo en el comportamiento del sistema, influenciando aspectos como la oscilación sinusoidal o el decaimiento exponencial. Estos dos comportamientos son comunes en muchos sistemas físicos, biológicos y de ingeniería.
-#### Comportamiento sinusoidal 
+#### 2.3.1 Comportamiento sinusoidal 
 >🔑El comportamiento sinusoidal es característico de sistemas que oscilan de manera periódica, como un péndulo o un oscilador armónico simple. La oscilación sinusoidal se produce cuando una cantidad varía cíclicamente, siguiendo una función seno o coseno en función del tiempo.
-#### Decaimiento exponencial 
+<img src="images/EXP.jpg"  width="300"/>
+#### 2.3.2 Decaimiento exponencial 
 >🔑El decaimiento exponencial es un comportamiento común en sistemas que experimentan fricción, resistencia o amortiguamiento, donde la amplitud de las oscilaciones o la magnitud de la variable disminuye exponencialmente con el tiempo.
-##  Ecuaciones diferenciales 
+##  3.Ecuaciones diferenciales 
 >🔑Una ecuación diferencial es una ecuación que involucra una o más derivadas de una función desconocida, la solución de una ecuación diferencial es una función o un conjunto de funciones que satisface dicha ecuación. Las ecuaciones diferenciales son esenciales para describir cómo cambian las variables de manera precisa y detallada. Los sistemas que pueden describir una ecuación diferencial son múltiples, por ejemplo, el movimiento de un objeto, la propagación de una enfermedad, el crecimiento de una población o la evolución de un mercado económico.
-### Derivada 
+### 3.1 Derivada 
 >🔑La derivada es un concepto fundamental en cálculo que describe el cambio instantáneo de una función con respecto a una de sus variables es decir que es una forma de medir la variación entre dos puntos. la derivada es una herramienta que evaluar el cambio instantáneo de una función con respecto a una de sus variables. A través de la derivada, podemos obtener información crucial sobre el comportamiento de una función, como la pendiente de una curva, la velocidad de un objeto, y la tasa de cambio de cualquier variable.La derivada juega un papel fundamental en las ecuaciones diferenciales, ya que estas ecuaciones describen cómo cambia una variable con respecto al tiempo o a otra variable.
 
-<img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
+![pam]<img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
 
-### Caracteristicas de una ecuacion diferencial 
+### 3.2 Caracteristicas de una ecuacion diferencial 
 Las ecuaciones diferenciales se pueden clasificar según su linealidad y variabilidad en diferentes tipos que afectan la forma en que se resuelven y el comportamiento que tienen las soluciones.
-#### Linealidad 
+#### 3.2.1 Linealidad 
 La linealidad se refiere a la forma en que las soluciones y sus derivadas aparecen en la ecuación. Una ecuación diferencial es lineal si las incógnitas y sus derivadas aparecen de forma lineal, es decir, no están multiplicadas entre sí ni elevadas a potencias mayores que 1.
-#### Variabilidad
+#### 3.2.2 Variabilidad
 La variabilidad en las ecuaciones diferenciales se refiere a cómo cambian los coeficientes y las funciones que acompañan a las derivadas de las incógnitas. Las ecuaciones pueden ser constantes o variables dependiendo de si los coeficientes y términos varían o no con respecto a la variable independiente.
-##  Transformada de Laplace
+##  4.Transformada de Laplace
 >🔑La Transformada de Laplace es una herramienta matemática utilizada para convertir ecuaciones diferenciales, que son difíciles de resolver en el dominio del tiempo, en ecuaciones algebraicas más sencillas de manejar. Es especialmente útil en el análisis de sistemas dinámicos, circuitos eléctricos, control de sistemas, y muchas áreas de la ingeniería y la física.La transformada de Laplace convierte funciones en el dominio del tiempo f(t) en funciones en el dominio complejo F(t).
-<img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
+</figure>
 
-### propiedades de la transformada de Laplace 
-#### linealidad
+ ![Texto alternativo] <img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
+
+
+### 4.1 propiedades de la transformada de Laplace 
+#### 4.1.1 linealidad
 La transformada de Laplace es una operación lineal. Esto significa que se puede aplicar a una combinación lineal de funciones.
-#### Desplazamiento en t
-Si la función  está desplazada en el tiempo, es decir, si aparece un término t−a, la transformada de Laplace se ve afectada por un factor exponencial.
-#### Desplazamiento en s
+#### 4.1.2 Desplazamiento en t
+Si la función  está desplazada en el tiempo, es decir, si aparece un término t−a, la transformada de Laplace se ve afectada por un factor exponencial.#### Desplazamiento en s
 se refiere a cómo la Transformada de una función cambia cuando se aplica un desplazamiento en el tiempo de la función original. Este desplazamiento en el tiempo afecta la variable s en el dominio de Laplace.
-#### Escalamiento en t 
+#### 4.1.3 Escalamiento en t 
 Si la función es escalada en el tiempo, es decir, si la función depende de at (donde aaa es una constante positiva), la transformada de Laplace se ajusta de la siguiente manera
-#### Transformado escalón unitario 
+#### 4.1.4 ransformado escalón unitario 
 Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=𝑎
 t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de Laplace de esta función desplazada es:
 
-<img src="images/TRU.jpg" alt="Foto de ejemplo" width="500"/>
-<img src="images/UNI.jpg" alt="Foto de ejemplo" width="300"/>
+<img src="images/TRU.jpg"  width="500"/>
+<img src="images/UNI.jpg"  width="300"/>
 
-#### Transformada función rampa
+#### 4.1.5 Transformada función rampa
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
 
-<img src="images/TN.png" alt="Foto de ejemplo" width="300"/>
+<img src="images/TN.png"  width="300"/>
 
-#### Transformada senosoidal 
-#### Transformada de la derivada 
+#### 4.1.6 Transformada senosoidal 
+#### 4.1.7 Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
 
 <img src="images/TRDER.png" alt="Foto de ejemplo" width="400"/>
 
-#### Transformada de la integral
+#### 4.1.8 Transformada de la integral
 La transformada de Laplace de una integral puede calcularse utilizando una propiedad importante de las transformadas de Laplace. Si tenemos una función.
 
 <img src="images/INTR.png" alt="Foto de ejemplo" width="300"/>
 
-## Transformada inversa de Laplace 
+## 4.2 Transformada inversa de Laplace 
 Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir de su representación en el dominio de Laplace. Para obtener la transformada inversa se deben descomponer en fracciones parciales la expresión a calcular.
-### Descomposición en fracciones parciales
+## 5.Descomposición en fracciones parciales
 es un método que se utiliza para simplificar fracciones racionales, es decir, fracciones donde el numerador como el denominador son polinomios.
-####  Raices reales y diferentes 
+#### 5.1 Raices reales y diferentes 
 
 ##  📚Ejercicios
 ###  📚Ejercicio 1
