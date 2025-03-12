@@ -53,6 +53,8 @@ t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de
 #### Transformada función rampa
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
 
+<img src="images/TN.jpg" alt="Foto de ejemplo" width="300"/>
+
 #### Transformada senosoidal 
 #### Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
