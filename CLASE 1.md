@@ -48,6 +48,7 @@ Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=�
 t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de Laplace de esta función desplazada es:
 
 <img src="images/TRU.jpg" alt="Foto de ejemplo" width="500"/>
+<img src="images/UNI.jpg" alt="Foto de ejemplo" width="300"/>
 
 #### Transformada función rampa
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
