@@ -44,7 +44,6 @@ Si la función es escalada en el tiempo, es decir, si la función depende de at 
 #### Transformado escalón unitario 
 #### Transformada función rampa
 #### Transformada senosoidal 
-#### Transformada de una funcion 
 #### Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
 
