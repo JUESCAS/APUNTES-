@@ -31,7 +31,9 @@ La linealidad se refiere a la forma en que las soluciones y sus derivadas aparec
 #### Variabilidad
 La variabilidad en las ecuaciones diferenciales se refiere a cómo cambian los coeficientes y las funciones que acompañan a las derivadas de las incógnitas. Las ecuaciones pueden ser constantes o variables dependiendo de si los coeficientes y términos varían o no con respecto a la variable independiente.
 ##  Transformada de Laplace
->🔑La Transformada de Laplace es una herramienta matemática utilizada para convertir ecuaciones diferenciales, que son difíciles de resolver en el dominio del tiempo, en ecuaciones algebraicas más sencillas de manejar. Es especialmente útil en el análisis de sistemas dinámicos, circuitos eléctricos, control de sistemas, y muchas áreas de la ingeniería y la física.
+>🔑La Transformada de Laplace es una herramienta matemática utilizada para convertir ecuaciones diferenciales, que son difíciles de resolver en el dominio del tiempo, en ecuaciones algebraicas más sencillas de manejar. Es especialmente útil en el análisis de sistemas dinámicos, circuitos eléctricos, control de sistemas, y muchas áreas de la ingeniería y la física.La transformada de Laplace convierte funciones en el dominio del tiempo f(t) en funciones en el dominio complejo F(t).
+<img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
+
 ### propiedades de la transformada de Laplace 
 #### linealidad
 La transformada de Laplace es una operación lineal. Esto significa que se puede aplicar a una combinación lineal de funciones.
@@ -42,7 +44,12 @@ se refiere a cómo la Transformada de una función cambia cuando se aplica un de
 #### Escalamiento en t 
 Si la función es escalada en el tiempo, es decir, si la función depende de at (donde aaa es una constante positiva), la transformada de Laplace se ajusta de la siguiente manera
 #### Transformado escalón unitario 
+Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=𝑎
+t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$
+u(t−a), y la transformada de Laplace de esta función desplazada es
 #### Transformada función rampa
+La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
+
 #### Transformada senosoidal 
 #### Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
