@@ -45,8 +45,10 @@ se refiere a cómo la Transformada de una función cambia cuando se aplica un de
 Si la función es escalada en el tiempo, es decir, si la función depende de at (donde aaa es una constante positiva), la transformada de Laplace se ajusta de la siguiente manera
 #### Transformado escalón unitario 
 Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=𝑎
-t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$
-u(t−a), y la transformada de Laplace de esta función desplazada es
+t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de Laplace de esta función desplazada es:
+
+<img src="images/TRU.jpg" alt="Foto de ejemplo" width="500"/>
+
 #### Transformada función rampa
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
 
