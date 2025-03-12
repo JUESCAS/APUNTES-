@@ -21,6 +21,9 @@ El decaimiento exponencial es un comportamiento común en sistemas que experimen
 Una ecuación diferencial es una ecuación que involucra una o más derivadas de una función desconocida, la solución de una ecuación diferencial es una función o un conjunto de funciones que satisface dicha ecuación. Las ecuaciones diferenciales son esenciales para describir cómo cambian las variables de manera precisa y detallada. Los sistemas que pueden describir una ecuación diferencial son múltiples, por ejemplo, el movimiento de un objeto, la propagación de una enfermedad, el crecimiento de una población o la evolución de un mercado económico.
 ### Derivada 
 >🔑La derivada es un concepto fundamental en cálculo que describe el cambio instantáneo de una función con respecto a una de sus variables es decir que es una forma de medir la variación entre dos puntos. la derivada es una herramienta que evaluar el cambio instantáneo de una función con respecto a una de sus variables. A través de la derivada, podemos obtener información crucial sobre el comportamiento de una función, como la pendiente de una curva, la velocidad de un objeto, y la tasa de cambio de cualquier variable.La derivada juega un papel fundamental en las ecuaciones diferenciales, ya que estas ecuaciones describen cómo cambia una variable con respecto al tiempo o a otra variable.
+
+<img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
+
 ### Caracteristicas de una ecuacion diferencial 
 Las ecuaciones diferenciales se pueden clasificar según su linealidad y variabilidad en diferentes tipos que afectan la forma en que se resuelven y el comportamiento que tienen las soluciones.
 #### Linealidad 
@@ -43,8 +46,15 @@ Si la función es escalada en el tiempo, es decir, si la función depende de at 
 #### Transformada senosoidal 
 #### Transformada de una funcion 
 #### Transformada de la derivada 
+La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
+
+<img src="images/TRDER.png" alt="Foto de ejemplo" width="400"/>
 
 #### Transformada de la integral
+La transformada de Laplace de una integral puede calcularse utilizando una propiedad importante de las transformadas de Laplace. Si tenemos una función.
+
+<img src="images/INTR.png" alt="Foto de ejemplo" width="300"/>
+
 ## Transformada inversa de Laplace 
 Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir de su representación en el dominio de Laplace. Para obtener la transformada inversa se deben descomponer en fracciones parciales la expresión a calcular.
 ### Descomposición en fracciones parciales
