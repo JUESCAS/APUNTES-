@@ -3,12 +3,14 @@ Cuando se pretende hacer una descomposición por fracciones parciales es importa
 ## 1.Descomposición en fracciones parciales 
 >🔑La descomposición en fracciones parciales es un método matemático utilizado para descomponer una fracción racional (es decir, un cociente de dos polinomios) en una suma de fracciones más simples. Este proceso es fundamental en diversas áreas de las matemáticas, especialmente en el análisis de fracciones racionales, la integración de funciones racionales y el estudio de transformadas de Laplace en ingeniería. Este método se aplica bajo ciertas condiciones que permiten descomponer la fracción de manera única, y normalmente se utiliza cuando el grado del numerador es menor que el grado del denominador de no ser así, se realiza primero una división polinómica. en pro de reducir el grado.
 ### 1.1 Raices reales e iguales
+Cuando el denominador de la fracción tiene raíces reales e iguales, es decir, el denominador tiene un factor cuadrado de una raíz real, la descomposición en fracciones parciales se plantean como se muestra acontinuacion, es importante tener en cuenta que el polinomio del numerador debe ser menor al del denominador.
 $$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
 
 $$F(s) = \frac{A}{(s + p)^1} + \frac{B}{(s + p)^2} + \cdots + \frac{n}{(s + p)^n}$$
 
 
 ### 1.2 Raices complejas conjugadas
+Cuando el denominador de una fracción racional tiene raíces complejas conjugadas, la técnica de fracciones parciales se adapta para descomponerla en fracciones más simples. Este tipo de descomposición se usa cuando el denominador tiene factores cuadráticos que no pueden ser factorizados en términos de raíces reales, sino en términos de factores cuadráticos con coeficientes complejos.
 
 $$F(s) = \frac{A_s + B}{s^2 + b_1 s + C_1} + \frac{C s + D}{s^2 + b_2 s + C_2} + \cdots + \frac{M s + N}{s^2 + b_n s + C_n}$$
 
@@ -16,7 +18,10 @@ $$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
 
 #### 1.2.1 Conjugado
 >🔑El conjugado de un número complejo se obtiene cambiando el signo de la parte imaginaria del número, mientras que la parte real permanece igual. Si un número complejo se expresa como:
-<img src="images/CONJ.jpg"  width="300"/>
+<img src="images/CONJ.png"  width="300"/>
+
+figura 1.representacion de complejo conjugado 
+
 $$z = x + iy$$
 
      x  es la parte real,
