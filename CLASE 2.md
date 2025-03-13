@@ -16,7 +16,7 @@ $$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
 
 #### 1.2.1 Conjugado
 >🔑El conjugado de un número complejo se obtiene cambiando el signo de la parte imaginaria del número, mientras que la parte real permanece igual. Si un número complejo se expresa como:
-
+<img src="images/CONJ.jpg"  width="300"/>
 $$z = x + iy$$
 
      x  es la parte real,
