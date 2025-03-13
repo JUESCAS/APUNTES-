@@ -5,6 +5,7 @@ Como solución a este problema se planteó el concepto de método simple, cuya v
 para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
 ## Raices reales y diferentes
 
+$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
 
 ## Raices reales e iguales
 
@@ -18,11 +19,15 @@ $$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
 >🔑 MATLAB es un lenguaje de programación y un entorno de desarrollo interactivo utilizado principalmente para el análisis numérico, la visualización de datos, el desarrollo de algoritmos,herramientas para trabajar con gráficos, simulaciones, procesamiento de señales, entre otras aplicaciones. gracias a sus multiples prestaciones es una herramienta muy popular en áreas como la ingeniería, las matemáticas, la física, la economía, la estadística y la inteligencia artificial.
 ### 2.1 Fracciones parciales
 Para llevar a cabo la descomposición en fracciones parciales en Matlab, inicialmente se debe crear dos matrices; la primera contendrá los valores del numerados y la segunda los del denominador, una vez hecho este proceso se empleara una función llamada “residue”, que se encargara de toma los valores asignados para numerador y el denominador de un sistema de fracción racional y devuelve los coeficientes de las fracciones parciales.
+
+$$\\frac{5x + 7}{(x - 1)^2 (x^2 + 4)} \$$
+
+
 ### 2.2 Transformada de Laplace
 Cuando se pretende calcular la transformada de Laplace de una expresión, es necesario emplear la función syms quien generar las variables "s" y "t" permitiendo asi el cambio del dominio t al dominio s, una vez se ha incluido la función, se creará una variable que será igual a la función que se va a calcular. una vez creada la función se empleará el comando "ilplace" que instantáneamente presentará los valores esperados.
 ### 2.3 Ecuaciones diferenciales 
 
-Para calculaar el  valor de una funcion en matlab, existen 3 metodos que funcionan de manera eficiente 
+Para calcular el  valor de una funcion en matlab, existen 3 metodos que funcionan de manera eficiente 
 
 ### 2.3.1 Metodo analitico
 
