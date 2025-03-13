@@ -48,6 +48,7 @@ Para llevar a cabo el método analítico tambien se deberá integrar la función
 
 $$2x'' + 2x' + x = 1, \quad x'(0) = 2, \quad x(0) = 0$$
 
+<img src="images/L.png"  width="300"/>
 
 ### 2.3.2 Metodo numerico ODE45
 
@@ -55,7 +56,7 @@ $$2x'' + 2x' + x = 1, \quad x'(0) = 2, \quad x(0) = 0$$
 
 💡ejemplo 4
 
-$$ 12x'' - 5x' - 2x = 3$$      $$x'(0)=2$$   $$x(0)=1$$
+$$ 12x'' - 5x' - 2x = 3  , \quad  x'(0)=2   , \quad  x(0)=1$$
 
 <img src="images/F.png"  width="300"/>
 <img src="images/G.png"  width="300"/>
