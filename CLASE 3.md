@@ -5,7 +5,9 @@ Como solución a este problema se planteó el concepto de método simple, cuya v
 para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
 ## Raices reales y diferentes
 
-$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
+$$ F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
+
+$$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{s + p_k}{s + p_k} \quad \text{para} \quad s = p_k\$$
 
 ## Raices reales e iguales
 
