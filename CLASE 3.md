@@ -52,6 +52,14 @@ Para llevar a cabo el método analítico tambien se deberá integrar la función
 ### 2.3.3 Metodo numerico simulink
 
 >🔑 Simulink es un entorno de simulación y diseño gráfico basado en bloques, que se utiliza junto con MATLAB para modelar, simular y analizar sistemas dinámicos, como sistemas de control, procesamiento de señales, comunicaciones, y muchos otros. Simulink permite a los usuarios diseñar modelos mediante una interfaz visual, arrastrando y conectando bloques, en lugar de escribir código de programación
+
+💡ejemplo 5
+
+$$ 12x'' - 5x' - 2x = 3$$
+
+<img src="images/D.png"  width="300"/>
+<img src="images/E.png"  width="300"/>
+
 ## 📚Ejercicios
 ### 📚Ejercicio 1
 $$\frac{2s^3 + 5s^2 + 6s + 7}{(s-3)(s^2 + 2s + 2)}\  $$
