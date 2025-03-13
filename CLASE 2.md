@@ -27,6 +27,9 @@ $$\ C = -4\$$
 $$\\frac{3}{s + 2} + \frac{s - 4}{s^2 - 2s + 3}\$$
 $$\mathcal{L}^{-1}\left[\frac{3}{s+2} - \frac{s-4}{(s-1)^2 + 2}\right]$$
 $$3e^{-2t} - e^{t} \cos(\sqrt{2}t)$$
+
+ejercicio obtenido de open AI
+
 ### 📚Ejercicio 2
 
 $$\\frac{4s^2 + 5s + 6}{(s + 3)(s^2 - 4s + 4)}\$$
@@ -53,6 +56,8 @@ $$\ A = \frac{73}{25}\$$
 $$\\frac{73}{25(s - 2)} + \frac{32}{5(s - 2)^2} + \frac{27}{25(s + 3)}\$$
 $$\mathcal{L}^{-1}\left[\frac{73}{25(s-2)} + \frac{32}{5(s-2)^2} + \frac{27}{25(s+3)}\right]$$
 $$\frac{73}{25} e^{2t} + \frac{32}{5} t e^{2t} + \frac{27}{25} e^{-3t}$$
+
+ejercicio obtenido de open AI
 
 # Conclusiones
 Es importante tener una estructura clara sobre conceptos alebraicos como factorizacion , evaulacion el discriminantes y  completar cuadrados ya que es esencial para poder identificar cual de los tres casos se puede aplicar en funcion de obtener expresiones que puedan relacionarse facil con la transformada inversa que se busca.
