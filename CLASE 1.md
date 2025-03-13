@@ -129,7 +129,7 @@ $$\frac{9}{4} e^{9t} + \frac{17}{4} e^{-5t}$$
 
 
 
-ejercicio generado por open AI
+ejercicio obtenido de open AI
 
 ###  📚Ejercicio 2
 $$\\frac{4s - 2}{s^3 - s^2 - 2s}\$$
@@ -154,7 +154,7 @@ $$\\frac{1}{s} + \frac{1}{s - 2} - \frac{2}{s + 1}\$$
 $$\mathcal{L}^{-1}\left[\frac{1}{s} + \frac{1}{s-2} - \frac{2}{(s+1)}\right]$$
 $$1 + e^{2t} + \frac{1}{2} e^{-t}$$
 
-ejercicio generado por open AI
+ejercicio obtenido de open AI
 
 ## Conclusiones 
 la transformada de laplace es una tecnica que al pasar del dominio del tiempo al dominio de laplace o la frecuencia nos permite simplificar operaciones que contienen derivadas de una funcion a operar simplemente con con expresiones algebraicas que al descomponerlas en fracciones parciales y la transformada inversa es posible obtener la funcion que estamos hallando. tambien cabe agregar la importancia del modelamiento mediante ecuaciones diferenciales ya que permite entender cual es el comportamiento del sistema analisar y plantear graficas que nso permitan llevar a cabo diferentes analisis.
