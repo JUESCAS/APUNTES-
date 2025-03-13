@@ -108,3 +108,7 @@ $$\ C= \frac{3}{4}\$$
 
 ## Conclusiones 
 ## Bibliografia 
+
+[ChatGPT] (https://openai.com/chatgpt)
+
+[MATLAB] (https://matlab.mathworks.com/)
