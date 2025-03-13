@@ -16,19 +16,19 @@ En un sistema dinámico, los parámetros pueden tener un impacto significativo e
 #### 2.3.1 Comportamiento sinusoidal 
 >🔑El comportamiento sinusoidal es característico de sistemas que oscilan de manera periódica, como un péndulo o un oscilador armónico simple. La oscilación sinusoidal se produce cuando una cantidad varía cíclicamente, siguiendo una función seno o coseno en función del tiempo.
 <img src="images/EXP.jpg"  width="300"/>
-
+Figura 1
 #### 2.3.2 Decaimiento exponencial 
 >🔑El decaimiento exponencial es un comportamiento común en sistemas que experimentan fricción, resistencia o amortiguamiento, donde la amplitud de las oscilaciones o la magnitud de la variable disminuye exponencialmente con el tiempo.
 
 <img src="images/EXPP.png" alt="Foto de ejemplo" width="300"/>
-
+Figura 2
 ##  3.Ecuaciones diferenciales 
 >🔑Una ecuación diferencial es una ecuación que involucra una o más derivadas de una función desconocida, la solución de una ecuación diferencial es una función o un conjunto de funciones que satisface dicha ecuación. Las ecuaciones diferenciales son esenciales para describir cómo cambian las variables de manera precisa y detallada. Los sistemas que pueden describir una ecuación diferencial son múltiples, por ejemplo, el movimiento de un objeto, la propagación de una enfermedad, el crecimiento de una población o la evolución de un mercado económico.
 ### 3.1 Derivada 
 >🔑La derivada es un concepto fundamental en cálculo que describe el cambio instantáneo de una función con respecto a una de sus variables es decir que es una forma de medir la variación entre dos puntos. la derivada es una herramienta que evaluar el cambio instantáneo de una función con respecto a una de sus variables. A través de la derivada, podemos obtener información crucial sobre el comportamiento de una función, como la pendiente de una curva, la velocidad de un objeto, y la tasa de cambio de cualquier variable.La derivada juega un papel fundamental en las ecuaciones diferenciales, ya que estas ecuaciones describen cómo cambia una variable con respecto al tiempo o a otra variable.
 
 <img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
-
+Figura 3
 ### 3.2 Caracteristicas de una ecuacion diferencial 
 Las ecuaciones diferenciales se pueden clasificar según su linealidad y variabilidad en diferentes tipos que afectan la forma en que se resuelven y el comportamiento que tienen las soluciones.
 #### 3.2.1 Linealidad 
@@ -37,10 +37,9 @@ La linealidad se refiere a la forma en que las soluciones y sus derivadas aparec
 La variabilidad en las ecuaciones diferenciales se refiere a cómo cambian los coeficientes y las funciones que acompañan a las derivadas de las incógnitas. Las ecuaciones pueden ser constantes o variables dependiendo de si los coeficientes y términos varían o no con respecto a la variable independiente.
 ##  4.Transformada de Laplace
 >🔑La Transformada de Laplace es una herramienta matemática utilizada para convertir ecuaciones diferenciales, que son difíciles de resolver en el dominio del tiempo, en ecuaciones algebraicas más sencillas de manejar. Es especialmente útil en el análisis de sistemas dinámicos, circuitos eléctricos, control de sistemas, y muchas áreas de la ingeniería y la física.La transformada de Laplace convierte funciones en el dominio del tiempo f(t) en funciones en el dominio complejo F(t).
-</figure>
 
- ![Texto alternativo] <img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
-
+ <img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
+Figura 4
 
 ### 4.1 propiedades de la transformada de Laplace 
 #### 4.1.1 linealidad
@@ -55,22 +54,27 @@ Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=�
 t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de Laplace de esta función desplazada es:
 
 <img src="images/TRU.jpg"  width="500"/>
+Figura 5
 <img src="images/UNI.jpg"  width="300"/>
+
+Figura 6
 
 #### 4.1.5 Transformada función rampa
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
 
 <img src="images/TN.png"  width="300"/>
-
+Figura 7
 #### 4.1.6 Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
 
 <img src="images/TRDER.png" alt="Foto de ejemplo" width="400"/>
-
+Figura 8
 #### 4.1.7 Transformada de la integral
 La transformada de Laplace de una integral puede calcularse utilizando una propiedad importante de las transformadas de Laplace. Si tenemos una función.
 
 <img src="images/INTR.png" alt="Foto de ejemplo" width="300"/>
+
+Figura 9
 
 ## 4.2 Transformada inversa de Laplace 
 Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir de su representación en el dominio de Laplace. Para obtener la transformada inversa se deben descomponer en fracciones parciales la expresión a calcular.
@@ -99,6 +103,14 @@ $$\\ B = \frac{-17}{4}\$$
 $$\\ A = -\left(\frac{-17}{4}\right) - 2\$$ 
 $$\\ A = \frac{9}{4}\$$
 $$\\frac{9}{4(s-9)} - \frac{17}{4(s+5)}\$$
+$$\mathcal{L}^{-1}\left[\frac{9}{4(s-9)} + \frac{17}{4(s+5)}\right]$$
+$$\frac{9}{4} e^{9t} + \frac{17}{4} e^{-5t}$$
+
+
+
+
+ejercicio generado por open AI
+
 ###  📚Ejercicio 2
 $$\\frac{4s - 2}{s^3 - s^2 - 2s}\$$
 $$\\frac{4s - 2}{s(s^2 - s - 2s)}\$$
@@ -119,7 +131,13 @@ $$\ 1 + B + 2 + 2B = 4\$$
 $$\ B = 1\$$
 $$\ C = -2\$$
 $$\\frac{1}{s} + \frac{1}{s - 2} - \frac{2}{s + 1}\$$
+$$\mathcal{L}^{-1}\left[\frac{1}{s} + \frac{1}{s-2} - \frac{2}{(s+1)}\right]$$
+$$1 + e^{2t} + \frac{1}{2} e^{-t}$$
+
+ejercicio generado por open AI
+
 ## Conclusiones 
+la transformada de laplace es una tecnica que al pasar del dominio del tiempo al dominio de laplace o la frecuencia nos permite simplificar operaciones que contienen derivadas de una funcion a operar simplemente con con expresiones algebraicas que al descomponerlas en fracciones parciales y la transformada inversa es posible obtener la funcion que estamos hallando. tambien cabe agregar la importancia del modelamiento mediante ecuaciones diferenciales ya que permite entender cual es el comportamiento del sistema analisar y plantear graficas que nso permitan llevar a cabo diferentes analisis.
 ## Referencias 
 [ChatGPT] (https://openai.com/chatgpt)
 
