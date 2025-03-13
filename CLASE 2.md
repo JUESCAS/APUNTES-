@@ -1,6 +1,9 @@
 # transformada de laplace 
 Cuando se pretende hacer una descomposición por fracciones parciales es importante tener en cuenta que tipo de factores están contenidos en el denominador, para este caso se abordaran otras dos posibilidades que aparecen recurrentemente a la hora de hacer la descomposición. Para el caso número dos, se establecerá como plantear las fracciones parciales, cuando al factorizar la expresión del denominador se obtiene raíces reales que son repetidas. Para el último caso, se establece un planteamiento totalmente diferente, ya que el numerador estará denotado como un sumado de dos términos donde uno de estos será coeficiente de la variable “s”, esta notación hará que sea muy probable que, a la hora de calcular la transformada inversa, la función coseno haga parte de esa expresión obtenida.
-##📚Ejercicios
+## 1.Descomposición en fracciones parciales 
+### 1.1 Raices reales e iguales
+### 1.2 Raices complejas conjugadas
+## 📚Ejercicios
 ### 📚Ejercicio 1
 $$\\frac{4s^2 - 8s + 1}{(s + 2)(s^2 - 2s + 3)}\$$
 $$\\frac{A}{s + 2} + \frac{Bs + C}{s^2 - 2s + 3}\$$
