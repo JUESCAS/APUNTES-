@@ -16,19 +16,25 @@ En un sistema dinámico, los parámetros pueden tener un impacto significativo e
 #### 2.3.1 Comportamiento sinusoidal 
 >🔑El comportamiento sinusoidal es característico de sistemas que oscilan de manera periódica, como un péndulo o un oscilador armónico simple. La oscilación sinusoidal se produce cuando una cantidad varía cíclicamente, siguiendo una función seno o coseno en función del tiempo.
 <img src="images/EXP.jpg"  width="300"/>
+
 Figura 1
+
 #### 2.3.2 Decaimiento exponencial 
 >🔑El decaimiento exponencial es un comportamiento común en sistemas que experimentan fricción, resistencia o amortiguamiento, donde la amplitud de las oscilaciones o la magnitud de la variable disminuye exponencialmente con el tiempo.
 
 <img src="images/EXPP.png" alt="Foto de ejemplo" width="300"/>
+
 Figura 2
+
 ##  3.Ecuaciones diferenciales 
 >🔑Una ecuación diferencial es una ecuación que involucra una o más derivadas de una función desconocida, la solución de una ecuación diferencial es una función o un conjunto de funciones que satisface dicha ecuación. Las ecuaciones diferenciales son esenciales para describir cómo cambian las variables de manera precisa y detallada. Los sistemas que pueden describir una ecuación diferencial son múltiples, por ejemplo, el movimiento de un objeto, la propagación de una enfermedad, el crecimiento de una población o la evolución de un mercado económico.
 ### 3.1 Derivada 
 >🔑La derivada es un concepto fundamental en cálculo que describe el cambio instantáneo de una función con respecto a una de sus variables es decir que es una forma de medir la variación entre dos puntos. la derivada es una herramienta que evaluar el cambio instantáneo de una función con respecto a una de sus variables. A través de la derivada, podemos obtener información crucial sobre el comportamiento de una función, como la pendiente de una curva, la velocidad de un objeto, y la tasa de cambio de cualquier variable.La derivada juega un papel fundamental en las ecuaciones diferenciales, ya que estas ecuaciones describen cómo cambia una variable con respecto al tiempo o a otra variable.
 
 <img src="images/DER.jpg" alt="Foto de ejemplo" width="300"/>
+
 Figura 3
+
 ### 3.2 Caracteristicas de una ecuacion diferencial 
 Las ecuaciones diferenciales se pueden clasificar según su linealidad y variabilidad en diferentes tipos que afectan la forma en que se resuelven y el comportamiento que tienen las soluciones.
 #### 3.2.1 Linealidad 
@@ -39,13 +45,15 @@ La variabilidad en las ecuaciones diferenciales se refiere a cómo cambian los c
 >🔑La Transformada de Laplace es una herramienta matemática utilizada para convertir ecuaciones diferenciales, que son difíciles de resolver en el dominio del tiempo, en ecuaciones algebraicas más sencillas de manejar. Es especialmente útil en el análisis de sistemas dinámicos, circuitos eléctricos, control de sistemas, y muchas áreas de la ingeniería y la física.La transformada de Laplace convierte funciones en el dominio del tiempo f(t) en funciones en el dominio complejo F(t).
 
  <img src="images/TRALP.jpg" alt="Foto de ejemplo" width="300"/>
+
 Figura 4
 
 ### 4.1 propiedades de la transformada de Laplace 
 #### 4.1.1 linealidad
 La transformada de Laplace es una operación lineal. Esto significa que se puede aplicar a una combinación lineal de funciones.
 #### 4.1.2 Desplazamiento en t
-Si la función  está desplazada en el tiempo, es decir, si aparece un término t−a, la transformada de Laplace se ve afectada por un factor exponencial.#### Desplazamiento en s
+Si la función  está desplazada en el tiempo, es decir, si aparece un término t−a, la transformada de Laplace se ve afectada por un factor exponencial.
+#### Desplazamiento en s
 se refiere a cómo la Transformada de una función cambia cuando se aplica un desplazamiento en el tiempo de la función original. Este desplazamiento en el tiempo afecta la variable s en el dominio de Laplace.
 #### 4.1.3 Escalamiento en t 
 Si la función es escalada en el tiempo, es decir, si la función depende de at (donde aaa es una constante positiva), la transformada de Laplace se ajusta de la siguiente manera
@@ -54,7 +62,9 @@ Si la función escalón unitario está desplazada, es decir, comienza en 𝑡=�
 t=a (en lugar de en t=0), se denota como $$𝑢(t-𝑎)$$ , y la transformada de Laplace de esta función desplazada es:
 
 <img src="images/TRU.jpg"  width="500"/>
+
 Figura 5
+
 <img src="images/UNI.jpg"  width="300"/>
 
 Figura 6
@@ -63,12 +73,16 @@ Figura 6
 La transformada de Laplace de esta función rampa se puede calcular utilizando la fórmula estándar de la transformada de Laplace para una función de la forma $$t^n$$
 
 <img src="images/TN.png"  width="300"/>
+
 Figura 7
+
 #### 4.1.6 Transformada de la derivada 
 La transformada de Laplace de la derivada de una función es una propiedad fundamental que se utiliza frecuentemente para resolver ecuaciones diferenciales
 
 <img src="images/TRDER.png" alt="Foto de ejemplo" width="400"/>
+
 Figura 8
+
 #### 4.1.7 Transformada de la integral
 La transformada de Laplace de una integral puede calcularse utilizando una propiedad importante de las transformadas de Laplace. Si tenemos una función.
 
@@ -82,6 +96,12 @@ Es el proceso mediante el cual podemos obtener en el dominio del tiempo a partir
 es un método que se utiliza para simplificar fracciones racionales, es decir, fracciones donde el numerador como el denominador son polinomios.
 #### 5.1 Raices reales y diferentes 
 cuando se factoriza del denominador y su resultado da factores cuyas raices son reales, se lleva a cabo de la siguiente manera.
+
+$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
+
+$$F(s)=\frac{A}{(S+p_1)}+\frac{B}{(S+p_2)}+....\frac{n}{(S+p_n)}$$
+
+$$F(s) = A (s + p_1)(s + p_{n-1}) + A (s + p_2)(s + p_{n-1}) + \dots + N (s + p_n)(s + p_n)$$
 
 ##  📚Ejercicios
 ###  📚Ejercicio 1
