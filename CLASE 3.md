@@ -49,6 +49,15 @@ Para llevar a cabo el método analítico tambien se deberá integrar la función
 ### 2.3.2 Metodo numerico ODE45
 
 >🔑 La función ode45 resuelve ecuaciones diferenciales de primer orden utilizando un método de Runge-Kutta de orden 4 y 5 (de ahí el "45" en el nombre). Este es un método de paso variable, lo que significa que ajusta el tamaño del paso de integración durante la solución para obtener un buen equilibrio entre precisión y eficiencia computacional
+
+💡ejemplo 5
+
+$$ 12x'' - 5x' - 2x = 3$$      $$x'(0)=2$$   $$x(0)=1$$
+
+<img src="images/F.png"  width="300"/>
+<img src="images/G.png"  width="300"/>
+
+
 ### 2.3.3 Metodo numerico simulink
 
 >🔑 Simulink es un entorno de simulación y diseño gráfico basado en bloques, que se utiliza junto con MATLAB para modelar, simular y analizar sistemas dinámicos, como sistemas de control, procesamiento de señales, comunicaciones, y muchos otros. Simulink permite a los usuarios diseñar modelos mediante una interfaz visual, arrastrando y conectando bloques, en lugar de escribir código de programación
