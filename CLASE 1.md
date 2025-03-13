@@ -103,7 +103,7 @@ $$F(s)=\frac{A}{(S+p_1)}+\frac{B}{(S+p_2)}+....\frac{n}{(S+p_n)}$$
 
 $$F(s) = A (s + p_1)(s + p_{n-1}) + A (s + p_2)(s + p_{n-1}) + \dots + N (s + p_n)(s + p_n)$$
 
-##  📚Ejercicios
+## 6. 📚Ejercicios
 ###  📚Ejercicio 1
 $$\\frac{2s+7}{s^2 - 4s - 45}\$$
 $$\\frac{2s+7}{(s-9)(s+5)}\$$
@@ -156,9 +156,9 @@ $$1 + e^{2t} + \frac{1}{2} e^{-t}$$
 
 ejercicio obtenido de open AI
 
-## Conclusiones 
+## 7. Conclusiones 
 la transformada de laplace es una tecnica que al pasar del dominio del tiempo al dominio de laplace o la frecuencia nos permite simplificar operaciones que contienen derivadas de una funcion a operar simplemente con con expresiones algebraicas que al descomponerlas en fracciones parciales y la transformada inversa es posible obtener la funcion que estamos hallando. tambien cabe agregar la importancia del modelamiento mediante ecuaciones diferenciales ya que permite entender cual es el comportamiento del sistema analisar y plantear graficas que nso permitan llevar a cabo diferentes analisis.
-## Referencias 
+## 8. Referencias 
 [ChatGPT] (https://openai.com/chatgpt)
 
 [Lidefer] (https://fjferrer.webs.ull.es/Apuntes3/Leccion01/15_dinmica_de_los_sistemas_ambientales.html)
