@@ -4,6 +4,7 @@ Cuando se pretende hacer una descomposición por fracciones parciales es importa
 >🔑La descomposición en fracciones parciales es un método matemático utilizado para descomponer una fracción racional (es decir, un cociente de dos polinomios) en una suma de fracciones más simples. Este proceso es fundamental en diversas áreas de las matemáticas, especialmente en el análisis de fracciones racionales, la integración de funciones racionales y el estudio de transformadas de Laplace en ingeniería. Este método se aplica bajo ciertas condiciones que permiten descomponer la fracción de manera única, y normalmente se utiliza cuando el grado del numerador es menor que el grado del denominador de no ser así, se realiza primero una división polinómica. en pro de reducir el grado.
 ### 1.1 Raices reales e iguales
 Cuando el denominador de la fracción tiene raíces reales e iguales, es decir, el denominador tiene un factor cuadrado de una raíz real, la descomposición en fracciones parciales se plantean como se muestra acontinuacion, es importante tener en cuenta que el polinomio del numerador debe ser menor al del denominador.
+
 $$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
 
 $$F(s) = \frac{A}{(s + p)^1} + \frac{B}{(s + p)^2} + \cdots + \frac{n}{(s + p)^n}$$
