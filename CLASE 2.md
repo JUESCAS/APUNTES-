@@ -13,9 +13,12 @@ $$F(s) = \frac{A}{(s + p)^1} + \frac{B}{(s + p)^2} + \cdots + \frac{n}{(s + p)^n
 ### 1.2 Raices complejas conjugadas
 Cuando el denominador de una fracción racional tiene raíces complejas conjugadas, la técnica de fracciones parciales se adapta para descomponerla en fracciones más simples. Este tipo de descomposición se usa cuando el denominador tiene factores cuadráticos que no pueden ser factorizados en términos de raíces reales, sino en términos de factores cuadráticos con coeficientes complejos.
 
+$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+
+
 $$F(s) = \frac{A_s + B}{s^2 + b_1 s + C_1} + \frac{C s + D}{s^2 + b_2 s + C_2} + \cdots + \frac{M s + N}{s^2 + b_n s + C_n}$$
 
-$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+
 
 #### 1.2.1 Conjugado
 >🔑El conjugado de un número complejo se obtiene cambiando el signo de la parte imaginaria del número, mientras que la parte real permanece igual. Si un número complejo se expresa como:
