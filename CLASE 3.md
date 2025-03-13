@@ -26,7 +26,8 @@ Para llevar a cabo el método analítico tambien se deberá integrar la función
 ### 2.3.3 Metodo numerico simulink
 
 >🔑 Simulink es un entorno de simulación y diseño gráfico basado en bloques, que se utiliza junto con MATLAB para modelar, simular y analizar sistemas dinámicos, como sistemas de control, procesamiento de señales, comunicaciones, y muchos otros. Simulink permite a los usuarios diseñar modelos mediante una interfaz visual, arrastrando y conectando bloques, en lugar de escribir código de programación
-
+## 📚Ejercicios
+### 📚Ejercicio 1
 $$\frac{2s^3 + 5s^2 + 6s + 7}{(s-3)(s^2 + 2s + 2)}\  $$
 $$\frac{A}{s-3} + \frac{Bs + C}{s^2 + 2s + 2}\$$
 $$\ B s + C = \left[ \frac{2s^3 + 5s^2 + 6s + 7(s^2 + 2s + 2)}{(s - 3)(s^2 + 2s + 2)} \right] \quad \text{evaluado en} \quad s = -1+i \$$
@@ -43,7 +44,7 @@ $$\ A = \left[ \frac{2s^3 + 5s^2 + 6s + 7}{s^2 + 2s + 2} \right] \$$
 $$A = \frac{2(3)^3 + 5(3)^2 + 6(3) + 7}{(3)^2 + 2(3) + 2}$$
 $$A = \frac{124}{17}$$
 $$\frac{\frac{124}{17}}{s-3} + \frac{-\frac{6}{17}s - \frac{14}{17}}{s^2 + 2s + 2}$$
-# eh
+### 📚Ejercicio 2
 $$\\frac{6s^2 + 11s + 10}{(s + 2)(s^2 - 4s + 4)}\$$  
 $$\\frac{A}{s - 2} + \frac{B}{(s - 2)^2} + \frac{C}{s + 2}\$$
 $$\ A = \left[\frac{6s^2 + 11s + 10}{(s + 2)} \right] \quad \text{evaluado en} \quad s = 2 $$
