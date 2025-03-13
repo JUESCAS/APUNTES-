@@ -50,7 +50,7 @@ Para llevar a cabo el método analítico tambien se deberá integrar la función
 
 >🔑 La función ode45 resuelve ecuaciones diferenciales de primer orden utilizando un método de Runge-Kutta de orden 4 y 5 (de ahí el "45" en el nombre). Este es un método de paso variable, lo que significa que ajusta el tamaño del paso de integración durante la solución para obtener un buen equilibrio entre precisión y eficiencia computacional
 
-💡ejemplo 5
+💡ejemplo 4
 
 $$ 12x'' - 5x' - 2x = 3$$      $$x'(0)=2$$   $$x(0)=1$$
 
