@@ -4,11 +4,16 @@ Como solución a este problema se planteó el concepto de método simple, cuya v
 ## Fracciones parciales método reducido  
 para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
 ## Raices reales y diferentes
-$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
+
 
 ## Raices reales e iguales
 
-## Raices complejas conjugadas 
+$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
+
+## Raices complejas conjugadas
+
+$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+
 ## 2.Soluciones Empleando matlab
 >🔑 MATLAB es un lenguaje de programación y un entorno de desarrollo interactivo utilizado principalmente para el análisis numérico, la visualización de datos, el desarrollo de algoritmos,herramientas para trabajar con gráficos, simulaciones, procesamiento de señales, entre otras aplicaciones. gracias a sus multiples prestaciones es una herramienta muy popular en áreas como la ingeniería, las matemáticas, la física, la economía, la estadística y la inteligencia artificial.
 ### 2.1 Fracciones parciales
