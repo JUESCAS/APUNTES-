@@ -19,17 +19,23 @@ $$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
 >🔑 MATLAB es un lenguaje de programación y un entorno de desarrollo interactivo utilizado principalmente para el análisis numérico, la visualización de datos, el desarrollo de algoritmos,herramientas para trabajar con gráficos, simulaciones, procesamiento de señales, entre otras aplicaciones. gracias a sus multiples prestaciones es una herramienta muy popular en áreas como la ingeniería, las matemáticas, la física, la economía, la estadística y la inteligencia artificial.
 ### 2.1 Fracciones parciales
 Para llevar a cabo la descomposición en fracciones parciales en Matlab, inicialmente se debe crear dos matrices; la primera contendrá los valores del numerados y la segunda los del denominador, una vez hecho este proceso se empleara una función llamada “residue”, que se encargara de toma los valores asignados para numerador y el denominador de un sistema de fracción racional y devuelve los coeficientes de las fracciones parciales.
+
 💡ejemplo 1
  
 $$\\frac{5x + 7}{(x - 1)^2 (x^2 + 4)} \$$
 
+<img src="images/A.png"  width="500"/>
+
+<img src="images/B.png"  width="300"/>
 
 ### 2.2 Transformada de Laplace
 Cuando se pretende calcular la transformada de Laplace de una expresión, es necesario emplear la función syms quien generar las variables "s" y "t" permitiendo asi el cambio del dominio t al dominio s, una vez se ha incluido la función, se creará una variable que será igual a la función que se va a calcular. una vez creada la función se empleará el comando "ilplace" que instantáneamente presentará los valores esperados.
-💡ejemplo 1
+
+💡ejemplo 2
  
 $$\\frac{5x + 7}{(x - 1)^2 (x^2 + 4)} \$$
 
+<img src="images/C.png"  width="500"/>
 
 ### 2.3 Ecuaciones diferenciales 
 
