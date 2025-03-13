@@ -2,7 +2,9 @@
 La descomposición por fracciones parciales es una técnica que permite expresar una fracción racional como la suma de fracciones más simples, este proceso es muy importante ya que las expresiones obtenidas pueden ser relacionadas con transformadas inversas de Laplace, que en ultimas representan la solución a la ecuación diferencial que describe el comportamiento de un sistema dinámico. A pesar de que la descomposición por fracciones parciales es muy efectiva, sin embargo, cuando obtenemos la suma de más 3 fracciones simples, los métodos tradicionales pueden resultar tediosos ya que dar soluciones a sistemas de ecuaciones 4x4 en adelante, no suele ser común.    
 Como solución a este problema se planteó el concepto de método simple, cuya ventaja se basa en que n necesito conocer el valor de los otros coeficientes para hallar uno. Este método al igual que al tradicional clasifica sus posibilidades en 3 casos es decir que en el denominador de las fracciones simples podemos encontrar; reales y diferentes, reales e iguales y raíces complejas conjugados.
 ## Fracciones parciales método reducido  
+para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
 ## Raices reales y diferentes
+
 ## Raices reales e iguales
 ## Raices complejas conjugadas 
 ## 2.Soluciones Empleando matlab
@@ -57,3 +59,5 @@ $$\ C = \left[ \frac{6s^2 + 11s + 10}{(s^2 - 4s + 4)} \right] \quad \text{evalua
 $$\ C = \frac{6(-2)^2 + 11(-2) + 10}{((-2)^2 - 4(-2) + 4)}\$$  
 $$\ C= \frac{3}{4}\$$
 
+## Conclusiones 
+## Bibliografia 
