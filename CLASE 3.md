@@ -1,16 +1,16 @@
 # Solución  de ecuaciones diferenciales 
 La descomposición por fracciones parciales es una técnica que permite expresar una fracción racional como la suma de fracciones más simples, este proceso es muy importante ya que las expresiones obtenidas pueden ser relacionadas con transformadas inversas de Laplace, que en ultimas representan la solución a la ecuación diferencial que describe el comportamiento de un sistema dinámico. A pesar de que la descomposición por fracciones parciales es muy efectiva, sin embargo, cuando obtenemos la suma de más 3 fracciones simples, los métodos tradicionales pueden resultar tediosos ya que dar soluciones a sistemas de ecuaciones 4x4 en adelante, no suele ser común.    
 Como solución a este problema se planteó el concepto de método simple, cuya ventaja se basa en que n necesito conocer el valor de los otros coeficientes para hallar uno. Este método al igual que al tradicional clasifica sus posibilidades en 3 casos es decir que en el denominador de las fracciones simples podemos encontrar; reales y diferentes, reales e iguales y raíces complejas conjugados.
-## Fracciones parciales método reducido  
+## 1. Fracciones parciales método reducido  
 para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
-## Raices reales y diferentes
+## 1.1 Raices reales y diferentes
 para llevar a cabo la aplicacion se multiplicara toda las expresiones por el denominador de la variable que se pretende determinar, una vez hecho se evaluara la variable s en el valor que satisfaga la expresion del denominador.
 
 $$ F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
 
 $$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{s + p_k}{s + p_k} \quad  \quad s = p_k\$$
 
-## Raices reales e iguales
+## 1.2 Raices reales e iguales
 cuando se obtiene raices reales e iguales en el denominador, se debe multiplicar y evaluar la variable s que satisfaga el binomio, sin embargo para este caso despues de calcular el primer valor, es necesario derivar la cantidad de veces que esten repetidas las raices.
 
 $$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
@@ -19,13 +19,14 @@ $$ A_{K1} = \frac{G(s)}{H(s)} \cdot \frac{(s + p_k)^2}{(s + p_k)^2} \quad  \quad
 
 $$ B_{Kn} = \left[ \frac{G(s)}{H(s)} \cdot \frac{(s + p_k)^2}{(s + p_k)^2} \right]^{} \quad  \quad s = p_k $$
 
-## Raices complejas conjugadas
+## 1.3 Raices complejas conjugadas
 
 Este caso es muy similar al primero, se aplica cuando el polinomio del denominador es irreducible, se multiplicara toda las expresiones por el denominador de la variable que se pretende determinar, una vez hecho se evaluara la variable s en el valor que satisfaga la expresion del denominador. en este caso la expresion seran un numero complejo de la forma  $$x + iy$$
 
 
 $$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
 $$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{a s_k^2 + b s_k + c_k}{a s_k^2 + b s_k + c_k} \quad  \quad s = (x + i y)_k\$$
+
 ## 2.Soluciones Empleando matlab
 >🔑 MATLAB es un lenguaje de programación y un entorno de desarrollo interactivo utilizado principalmente para el análisis numérico, la visualización de datos, el desarrollo de algoritmos,herramientas para trabajar con gráficos, simulaciones, procesamiento de señales, entre otras aplicaciones. gracias a sus multiples prestaciones es una herramienta muy popular en áreas como la ingeniería, las matemáticas, la física, la economía, la estadística y la inteligencia artificial.
 ### 2.1 Fracciones parciales
@@ -103,8 +104,8 @@ figura 7.Calculo en simulink
 
 figura 8.Grafica obtenida en simulimk
 
-## 📚Ejercicios
-### 📚Ejercicio 1
+## 📚 3. Ejercicios
+### 📚3.1 Ejercicio 1
 $$\frac{2s^3 + 5s^2 + 6s + 7}{(s-3)(s^2 + 2s + 2)}\  $$
 $$\frac{A}{s-3} + \frac{Bs + C}{s^2 + 2s + 2}\$$
 $$\ B s + C = \left[ \frac{2s^3 + 5s^2 + 6s + 7(s^2 + 2s + 2)}{(s - 3)(s^2 + 2s + 2)} \right] \quad \text{evaluado en} \quad s = -1+i \$$
@@ -125,7 +126,7 @@ $$ \mathcal{L}^{-1} \left[ \frac{\frac{124}{17}}{s - 3} + \frac{-\frac{1}{17} s 
 $$ \frac{124}{17} e^{3t} - \frac{1}{17} e^{-t} \cos(t) - \frac{14}{17} e^{-t} \sin(t)$$
 
 
-### 📚Ejercicio 2
+### 📚3.2 Ejercicio 2
 $$\\frac{6s^2 + 11s + 10}{(s + 2)(s^2 - 4s + 4)}\$$  
 $$\\frac{A}{s - 2} + \frac{B}{(s - 2)^2} + \frac{C}{s + 2}\$$
 $$\ A = \left[\frac{6s^2 + 11s + 10}{(s + 2)} \right] \quad \text{evaluado en} \quad s = 2 $$
@@ -142,7 +143,9 @@ $$ \mathcal{L}^{-1} \left[ \frac{14}{s - 2} + \frac{\frac{21}{4}}{(s - 2)^2} + \
 $$ 14 e^{2t} + \frac{21}{4} t e^{2t} + \frac{3}{4} e^{-2t} $$
 
 
-## Conclusiones 
+## Conclusiones
+El metodo reducido es muy valioso a la hora que aparecen mas de 3 fracciones simples ya que plantear y solucionar un sistema 3x3 no suele ser tan complejo, sin embargo enfrentarse a sistema 4x4 en adelante resulta ser bastante tedioso y el margen de error puede aumentar, este metodo tiene una gran ventaja y es que para calcular una de las letras no es indispensable tener el valor de la otra.
+
 ## Bibliografia 
 
 [ChatGPT] (https://openai.com/chatgpt)
