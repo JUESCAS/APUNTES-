@@ -26,7 +26,11 @@ $$\\frac{5x + 7}{(x - 1)^2 (x^2 + 4)} \$$
 
 <img src="images/A.png"  width="500"/>
 
+figura 1.Calculo en MATLAB
+
 <img src="images/B.png"  width="300"/>
+
+figura 2.Calculo en MATLAB
 
 ### 2.2 Transformada de Laplace
 Cuando se pretende calcular la transformada de Laplace de una expresión, es necesario emplear la función syms quien generar las variables "s" y "t" permitiendo asi el cambio del dominio t al dominio s, una vez se ha incluido la función, se creará una variable que será igual a la función que se va a calcular. una vez creada la función se empleará el comando "ilplace" que instantáneamente presentará los valores esperados.
@@ -36,6 +40,8 @@ Cuando se pretende calcular la transformada de Laplace de una expresión, es nec
 $$\\frac{5x + 7}{(x - 1)^2 (x^2 + 4)} \$$
 
 <img src="images/C.png"  width="500"/>
+
+figura 3.Calculo en MATLAB
 
 ### 2.3 Ecuaciones diferenciales 
 
@@ -52,6 +58,8 @@ $$2x'' + 2x' + x = 1, \quad x'(0) = 2, \quad x(0) = 0$$
 
 <img src="images/L.png"  width="300"/>
 
+figura 4.Calculo en MATLAB
+
 ### 2.3.2 Metodo numerico ODE45
 
 >🔑 La función ode45 resuelve ecuaciones diferenciales de primer orden utilizando un método de Runge-Kutta de orden 4 y 5 (de ahí el "45" en el nombre). Este es un método de paso variable, lo que significa que ajusta el tamaño del paso de integración durante la solución para obtener un buen equilibrio entre precisión y eficiencia computacional
@@ -61,8 +69,12 @@ $$2x'' + 2x' + x = 1, \quad x'(0) = 2, \quad x(0) = 0$$
 $$ 12x'' - 5x' - 2x = 3  , \quad  x'(0)=2   , \quad  x(0)=1$$
 
 <img src="images/F.png"  width="300"/>
+
+figura 5.Calculo en MATLAB
+
 <img src="images/G.png"  width="300"/>
 
+figura 6.Grafica obtenida en MATLAB
 
 ### 2.3.3 Metodo numerico simulink
 
@@ -73,7 +85,12 @@ $$ 12x'' - 5x' - 2x = 3  , \quad  x'(0)=2   , \quad  x(0)=1$$
 $$ 12x'' - 5x' - 2x = 3$$
 
 <img src="images/D.png"  width="300"/>
+
+figura 7.Calculo en simulink
+
 <img src="images/E.png"  width="300"/>
+
+figura 8.Grafica obtenida en simulimk
 
 ## 📚Ejercicios
 ### 📚Ejercicio 1
@@ -93,6 +110,7 @@ $$\ A = \left[ \frac{2s^3 + 5s^2 + 6s + 7}{s^2 + 2s + 2} \right] \$$
 $$A = \frac{2(3)^3 + 5(3)^2 + 6(3) + 7}{(3)^2 + 2(3) + 2}$$
 $$A = \frac{124}{17}$$
 $$\frac{\frac{124}{17}}{s-3} + \frac{-\frac{6}{17}s - \frac{14}{17}}{s^2 + 2s + 2}$$
+
 ### 📚Ejercicio 2
 $$\\frac{6s^2 + 11s + 10}{(s + 2)(s^2 - 4s + 4)}\$$  
 $$\\frac{A}{s - 2} + \frac{B}{(s - 2)^2} + \frac{C}{s + 2}\$$
