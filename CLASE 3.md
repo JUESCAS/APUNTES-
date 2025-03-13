@@ -4,19 +4,28 @@ Como solución a este problema se planteó el concepto de método simple, cuya v
 ## Fracciones parciales método reducido  
 para llevar a cabo la descomposicion en fracciones parciales es importante factorizar los polinomios del denominador en factores que contengan dos terminos, este metodo peopone una manera mas simple de hallar los numeradores a la hora de realizar la descomposicion, este metodo propone asignar y evaluar la variable "s" segun la fraccion simple que se pretende calcular.  
 ## Raices reales y diferentes
+para llevar a cabo la aplicacion se multiplicara toda las expresiones por el denominador de la variable que se pretende determinar, una vez hecho se evaluara la variable s en el valor que satisfaga la expresion del denominador.
 
 $$ F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p_1)(s + p_2) \dots (s + p_n)}$$
 
-$$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{s + p_k}{s + p_k} \quad \text{para} \quad s = p_k\$$
+$$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{s + p_k}{s + p_k} \quad  \quad s = p_k\$$
 
 ## Raices reales e iguales
+cuando se obtiene raices reales e iguales en el denominador, se debe multiplicar y evaluar la variable s que satisfaga el binomio, sin embargo para este caso despues de calcular el primer valor, es necesario derivar la cantidad de veces que esten repetidas las raices.
 
 $$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
 
+$$ A_{K1} = \frac{G(s)}{H(s)} \cdot \frac{(s + p_k)^2}{(s + p_k)^2} \quad  \quad s = p_k $$
+
+$$ B_{Kn} = \left[ \frac{G(s)}{H(s)} \cdot \frac{(s + p_k)^2}{(s + p_k)^2} \right]^{} \quad  \quad s = p_k $$
+
 ## Raices complejas conjugadas
 
-$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+Este caso es muy similar al primero, se aplica cuando el polinomio del denominador es irreducible, se multiplicara toda las expresiones por el denominador de la variable que se pretende determinar, una vez hecho se evaluara la variable s en el valor que satisfaga la expresion del denominador. en este caso la expresion seran un numero complejo de la forma  $$x + iy$$
 
+
+$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+$$\ A_K = \frac{G(s)}{H(s)} \cdot \frac{a s_k^2 + b s_k + c_k}{a s_k^2 + b s_k + c_k} \quad  \quad s = (x + i y)_k\$$
 ## 2.Soluciones Empleando matlab
 >🔑 MATLAB es un lenguaje de programación y un entorno de desarrollo interactivo utilizado principalmente para el análisis numérico, la visualización de datos, el desarrollo de algoritmos,herramientas para trabajar con gráficos, simulaciones, procesamiento de señales, entre otras aplicaciones. gracias a sus multiples prestaciones es una herramienta muy popular en áreas como la ingeniería, las matemáticas, la física, la economía, la estadística y la inteligencia artificial.
 ### 2.1 Fracciones parciales
@@ -112,6 +121,9 @@ $$\ A = \left[ \frac{2s^3 + 5s^2 + 6s + 7}{s^2 + 2s + 2} \right] \$$
 $$A = \frac{2(3)^3 + 5(3)^2 + 6(3) + 7}{(3)^2 + 2(3) + 2}$$
 $$A = \frac{124}{17}$$
 $$\frac{\frac{124}{17}}{s-3} + \frac{-\frac{6}{17}s - \frac{14}{17}}{s^2 + 2s + 2}$$
+$$ \mathcal{L}^{-1} \left[ \frac{\frac{124}{17}}{s - 3} + \frac{-\frac{1}{17} s - \frac{14}{17}}{s^2 + 2s + 2} \right] $$
+$$ \frac{124}{17} e^{3t} - \frac{1}{17} e^{-t} \cos(t) - \frac{14}{17} e^{-t} \sin(t)$$
+
 
 ### 📚Ejercicio 2
 $$\\frac{6s^2 + 11s + 10}{(s + 2)(s^2 - 4s + 4)}\$$  
@@ -125,6 +137,10 @@ $$\ B = \frac{(12(2) + 11)(2 + 2) - (6(2)^2 + 11(2) + 10)}{(2)^2 + 4(2) + 4} = \
 $$\ C = \left[ \frac{6s^2 + 11s + 10}{(s^2 - 4s + 4)} \right] \quad \text{evaluado en} \quad s = 2\$$
 $$\ C = \frac{6(-2)^2 + 11(-2) + 10}{((-2)^2 - 4(-2) + 4)}\$$  
 $$\ C= \frac{3}{4}\$$
+$$ \frac{14}{s - 2} + \frac{\frac{21}{4}}{(s - 2)^2} + \frac{\frac{3}{4}}{s + 2}$$
+$$ \mathcal{L}^{-1} \left[ \frac{14}{s - 2} + \frac{\frac{21}{4}}{(s - 2)^2} + \frac{\frac{3}{4}}{s + 2} \right] $$
+$$ 14 e^{2t} + \frac{21}{4} t e^{2t} + \frac{3}{4} e^{-2t} $$
+
 
 ## Conclusiones 
 ## Bibliografia 
