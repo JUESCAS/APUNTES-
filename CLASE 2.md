@@ -27,7 +27,7 @@ $$z = x - iy$$
  
  💡ejemplo 1
 
-$$z = 4 - 7i$$
+$$z = 4 + 7i$$
 
 $$\overline{z} = 4 - 7i$$
 
