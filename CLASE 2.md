@@ -51,6 +51,7 @@ $$\mathcal{L}^{-1}\left[\frac{73}{25(s-2)} + \frac{32}{5(s-2)^2} + \frac{27}{25(
 $$\frac{73}{25} e^{2t} + \frac{32}{5} t e^{2t} + \frac{27}{25} e^{-3t}$$
 
 # Conclusiones
+Es importante tener una estructura clara sobre conceptos alebraicos como factorizacion , evaulacion el discriminantes y  completar cuadrados ya que es esencial para poder identificar cual de los tres casos se puede aplicar en funcion de obtener expresiones que puedan relacionarse facil con la transformada inversa que se busca.
 # Bibliografia
 [ChatGPT] (https://openai.com/chatgpt)
 
