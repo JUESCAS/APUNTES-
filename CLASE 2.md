@@ -3,7 +3,50 @@ Cuando se pretende hacer una descomposición por fracciones parciales es importa
 ## 1.Descomposición en fracciones parciales 
 >🔑La descomposición en fracciones parciales es un método matemático utilizado para descomponer una fracción racional (es decir, un cociente de dos polinomios) en una suma de fracciones más simples. Este proceso es fundamental en diversas áreas de las matemáticas, especialmente en el análisis de fracciones racionales, la integración de funciones racionales y el estudio de transformadas de Laplace en ingeniería. Este método se aplica bajo ciertas condiciones que permiten descomponer la fracción de manera única, y normalmente se utiliza cuando el grado del numerador es menor que el grado del denominador de no ser así, se realiza primero una división polinómica. en pro de reducir el grado.
 ### 1.1 Raices reales e iguales
+$$F(s) = \frac{G(s)}{H(s)} = \frac{G(s)}{(s + p)^n}$$
+
+$$F(s) = \frac{A}{(s + p)^1} + \frac{B}{(s + p)^2} + \cdots + \frac{n}{(s + p)^n}$$
+
+
 ### 1.2 Raices complejas conjugadas
+
+$$F(s) = \frac{A_s + B}{s^2 + b_1 s + C_1} + \frac{C s + D}{s^2 + b_2 s + C_2} + \cdots + \frac{M s + N}{s^2 + b_n s + C_n}$$
+
+$$F(s)=\frac{P(s)}{{(s}^2+b_1s+C_1)(s^2+b_2s+C_2)(s^2+b_ns+C_n)}$$
+
+#### 1.2.1 Conjugado
+>🔑El conjugado de un número complejo se obtiene cambiando el signo de la parte imaginaria del número, mientras que la parte real permanece igual. Si un número complejo se expresa como:
+
+$$z = x + iy$$
+
+     x  es la parte real,
+     y  es la parte imaginaria, y
+     i  es la unidad imaginarias
+El conjugado de un número complejo se obtiene cambiando el signo de la parte imaginaria del número, mientras que la parte real permanece igual. es decir:
+$$z = x - iy$$
+ 
+ 💡ejemplo 1
+
+$$z = 4 - 7i$$
+
+$$\overline{z} = 4 - 7i$$
+
+#### 1.2.1 discriminante
+La discriminante es un valor asociado a una ecuación cuadrática de la forma:
+$$ax^2 + bx + c = 0$$
+el discriminante de define como $$\Delta = b^2 - 4ac$$ donde a, b, y c son constantes. La discriminante se utiliza para determinar la naturaleza de las soluciones de esta ecuación cuadrática. la forma de interpretar el disciminante depende si este es menos, mayor o igual que 0.
+
+- **Si \( d > 0 \)**: Raíces reales y diferentes.
+- **Si \( d < 0 \)**: Raíces complejas conjugadas.
+- **Si \( d = 0 \)**: Raíces reales e iguales.
+  
+ 💡ejemplo 2
+
+$$2x^2 - 5x + 3$$
+
+$$\Delta = (-4)^2 - 4(2)(1) = 16 - 8 = 8$$
+
+ se puede concluir que el polinomio contiene raices reales e iguales
 ## 📚Ejercicios
 ### 📚Ejercicio 1
 $$\\frac{4s^2 - 8s + 1}{(s + 2)(s^2 - 2s + 3)}\$$
