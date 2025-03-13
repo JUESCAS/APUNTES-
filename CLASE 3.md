@@ -46,6 +46,9 @@ Para calcular el  valor de una funcion en matlab, existen 3 metodos que funciona
 
 Para llevar a cabo el método analítico tambien se deberá integrar la función syms, posteriormente se creará una variable que contendrá la ecuacion que se pretende solucionar, una vez declarada esta variable se creara otra que contendrá los valores iníciales en una matriz. Para finalizar el proceso se emplara la función "dsolve" que integrara los valores dados y calculara  el valor de la función, para finalizar se empleara la función "disp" que mostrara el valor de la solución.
 
+$$2x'' + 2x' + x = 1, \quad x'(0) = 2, \quad x(0) = 0$$
+
+
 ### 2.3.2 Metodo numerico ODE45
 
 >🔑 La función ode45 resuelve ecuaciones diferenciales de primer orden utilizando un método de Runge-Kutta de orden 4 y 5 (de ahí el "45" en el nombre). Este es un método de paso variable, lo que significa que ajusta el tamaño del paso de integración durante la solución para obtener un buen equilibrio entre precisión y eficiencia computacional
