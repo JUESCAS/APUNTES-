@@ -51,3 +51,4 @@ $$ G=\frac{304}{425} \$$
 
 $$ F(s) = -\frac{1}{3978} \cdot \frac{1}{(s - 1)} + \frac{7}{30} \cdot \frac{1}{(s + 2)^2} - \frac{6620}{185748} \cdot \frac{1}{(s + 2)} + \frac{8}{34} s + \frac{45}{34} \cdot \frac{1}{(s + 3)^2 + 9} + \frac{-89}{425} s - \frac{304}{425} \cdot \frac{1}{(s + 4)^2 + 1} $$
 
+<img src="images/EJ.png"  width="500"/>
