@@ -1,3 +1,6 @@
+# Solucon de ecuaciones diferenciales 
+en este caso se ha integrado las tecnicas vistas a la hora de haces la descomposicion en fracciones parciales 
+## Ejemplo desarrollado en clase 
 $$F(s) = \frac{2s - 3}{(s - 1)(s^2 + s - 2)(s^2 + 6s + 10)(s^2 + 8s + 17)}$$
 $$2s - 3 = \frac{A}{s-1} + \frac{B}{(s+2)^2} + \frac{C}{s+2} + \frac{Ds + E}{s^2 + 6s + 10} + \frac{Fs + G}{s^2 + 8s + 17}$$
 $$A = \left[ \frac{2s - 3}{(s - 1)(s + 2)^2 (s^2 + 6s + 10)(s^2 + 8s + 17)} (s - 1) \right]  \quad s = 1$$
@@ -51,4 +54,4 @@ $$ G=\frac{304}{425} \$$
 
 $$ F(s) = -\frac{1}{3978} \cdot \frac{1}{(s - 1)} + \frac{7}{30} \cdot \frac{1}{(s + 2)^2} - \frac{6620}{185748} \cdot \frac{1}{(s + 2)} + \frac{8}{34} s + \frac{45}{34} \cdot \frac{1}{(s + 3)^2 + 9} + \frac{-89}{425} s - \frac{304}{425} \cdot \frac{1}{(s + 4)^2 + 1} $$
 
-<img src="images/EJ.png"  width="500"/>
+<img src="images/EJ.png"  width="550"/>
